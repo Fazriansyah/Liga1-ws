@@ -1,2 +1,1 @@
-# Liga1-ws
-Praktikum webstaties #2
+# Praktikum WS Umbjm
