@@ -1,0 +1,142 @@
+<html>
+<head>
+    <style>
+
+.wrap .header{
+    background: blue;
+    text-align: center;
+    padding: 2px 10px;
+    padding-right: 150px;
+    font-family: Tahoma;
+}
+.wrap .menu{
+    background: lime;
+}
+.wrap .menu ul{
+    padding:  0;
+    margin: 0;
+    background: lime;
+    overflow: hidden;
+}
+.wrap .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+.wrap .menu ul li a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+.badan{
+    height: 450px;
+}
+.wrap .badan .sidebar{
+    background: aliceblue;
+    float: left;    
+    width: 25%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+
+
+}
+    aside{
+                overflow: hidden;
+            }
+            
+            label, input, button{
+                display: block;
+            }
+            input, button{
+                border: 1px solid lime;
+                font-size: 14px;
+                padding: 5px;
+            }
+            button{
+                background-color: forestgreen;
+                color: white;
+                margin-top: 10px;
+            }
+
+.wrap .badan .content{
+    background: aliceblue;
+    float: left;    
+    height: 100%;
+    width: 71%;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px; 
+    border: 1px solid white;
+    color: black;
+}
+.wrap .footer{
+    background: blue;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    color: white;   
+    text-align: center;
+}
+
+    </style>
+    <title>e-Tiket</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <body>
+    <div class="wrap">
+        <div class="header">    
+        <font color="white">
+        <img src="images/liga1.png" width="150px" align="left" >        
+            <h1>Liga 1 Gojek Traveloka</h1>
+            <p>PT. LIGA BARU INDONESIA</p>
+        </font>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="klasemen.html">Klasemen</a></li>
+                <li><a href="registrasi.html">Registrasi</a></li>
+                <li><a href="eTiket.html">e-Tiket</a></li>
+            </ul>
+        </div>
+        <div class="badan">         
+            <div class="sidebar">
+                <font color="black">
+                <aside>
+            <h3>Silakan Login</h3>
+            <form>
+                <label>Username</label>
+                    <input id="Username" value="" type="text" placeholder="Username">
+                <label>Password</label>
+                <input id="Password" value="" type="Password" placeholder="Password">
+                <button><i class="fa fa-sign-in"></i>Login</button>
+            </form>
+        </aside>
+    </font>
+            </div>
+            <div class="content">
+       <article>
+            <h1>Pembelian e-Tiket Liga 1 Gojek Traveloka</h1>
+                <label>Nama Lengkap</label>
+                <input name="nama" id="nama" class="" value="" type="text" required>
+                <label>Harga Tiket</label>
+                <select name="hargatiket" id="hargatiket">
+                    <option value="vip">VIP Rp.100.000.00,-</option>
+                    <option value="tertutup">Tribun Tertutup Rp.75.000.00,-</option>
+                    <option value="terbuka">Tribun Terbuka Rp.40.000.00,-</option>
+                </select>
+                <button name="beli" id="beli" class="" type="submit">BELI</button>
+        </article>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <span>copyright &copy Liga1Match 2017</span>
+        </div>
+    </div>
+</body>
+</html>
